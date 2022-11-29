@@ -9,7 +9,7 @@ import streamlit as st
 
 model=pickle.load(open('sentiment_analysis_model.p','rb'))
 
-st.title(' Sentiment Analysis moday by siddhant jain ')
+st.title(' Sentiment Analysis modal by siddhant jain ')
 
 st.write('Enter text for sentiment analysis:')
 message = st.text_area("","Type Here ...")
